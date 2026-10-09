@@ -1,0 +1,73 @@
+@media only screen and (max-width: 480px) {
+    .mobile-nav {
+        display: block;
+        background-color: #398e8a;
+        padding: 1rem 0.5rem;
+    }    
+    .new-nav .mobile-nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+    }
+    .new-nav .mobile-nav .menu{
+        font-size: 2rem;
+        cursor: pointer;
+    }
+    .new-nav .logo img{
+        width: 90px;
+    }
+    nav{
+        display: none;
+        flex-direction: column;
+    }
+    nav .links{
+        flex-direction: column;
+    }
+    nav .logo img{
+        position: relative;
+        right: 150px;
+        top: 10px;
+    }
+    nav .links{
+        line-height: 2rem;
+        margin-top: 1.5rem;
+    }
+    nav .links a{
+        border-bottom: 2px solid whitesmoke;
+        text-align: center;
+        width: 100vw;
+        
+    }
+    nav .btn{
+        display: none;
+    }
+    
+    header{
+        clip-path: none;
+        flex-direction: column;
+        gap: 10rem;
+    }
+    header .texts{
+        align-items: center;
+        padding: 1rem;
+        font-size: 0.7rem;
+    }
+    .images .texts{
+        top: 92%;
+        left: 5%;
+    }
+    .images img{
+        width: 340px;
+        top: 72%;
+        left: 12%;
+    }
+    header .texts .text #first{
+        top: 70%;
+        flex-direction: column;
+    }
+    header .texts .text #Third{
+        top: 20%;
+        flex-direction: column;
+    }
+}

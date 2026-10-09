@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+@import url(mobile.css);
+body{
+    margin: 0;
+    font-family: "inter";
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #398e8a;
+    margin-top: 0;
+    padding: 5px;
+    gap: 5px; 
+}
+header{
+    display: flex;
+    background-color: #074643;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-around;
+    background: #075653;
+
+  clip-path: polygon(
+
+    0 0,
+
+    100% 0,
+
+    100% 43%,
+
+    91% 49%,
+
+    81% 57%,
+
+    70% 66%,
+
+    59% 74%,
+
+    47% 82%,
+
+    34% 88%,
+
+    20% 91%,
+
+    8% 88%,
+
+    0 82%
+
+  );
+}
+header .texts{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+header .imges img{
+width: 400px;
+}
+header .texts .text{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+header .texts .text #first{
+font-size: 30px;
+font-family: "Train one";
+}
+
+header .texts .text #Second{
+    font-family: inter;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+header .texts .text #Third{
+    font-family: inter;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.images .texts{
+    background-color: white;
+    color: black;
+    display: flex;
+    max-width: fit-content;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 30px;
+    position: absolute;
+    top: 45%;
+    right: 35%;
+}
+.images .texts #new{
+    font-weight: 900;
+    font-size: 40px;
+}
+.images .texts #lorem{
+    font-weight: 900;
+    font-size: 14px;
+}
+
+.images img{
+    width: 400px;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+}
+nav .logo img{
+    width: 90px;
+}
+nav .links{
+    display: flex;
+    gap: 1.2rem;
+}
+nav .links a{
+    text-decoration: none;
+    color: white;
+}
+
+nav .btn{
+    border: 2px solid #d4bfec;
+    align-items: center;
+    display: flex;
+    border-radius: 20px;
+    padding: 6px 20px;
+    gap: 0.4rem;
+    color: white;
+}
+nav .btn span{
+    color: white;
+    font-size: 0.7rem;
+}
+nav .btn image{
+    width: 22px;
+}
+header .texts .btns{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+header .texts .btns button{
+    background-color: #101C1B;
+    color: white;
+    border: none;
+    padding: 14px 22px;
+    border-radius: 20px;
+    font-family: "inter";
+    cursor: pointer;
+}
+header .texts .btns .Icon{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+header .texts .btns .icon img{
+    width: 8px;
+}
+header .texts .btns .Icon span{
+    font-weight: 900;
+}
+
+div .images{
+    display: flex;
+    align-items: center;
+}
+
+section .texts .new{
+    display: flex;
+    align-items: center;
+    gap: 50rem;
+}
+section .buttons .Icon{
+    display: flex;
+    align-items: center;
+}
+section .buttons{
+    border-radius: 20px;
+    color: #101C1B;
+    gap: 0.5rem;
+    padding: 6px 20px;
+    border: 2px solid;
+    align-items: center;
+    gap: 25px;
+    
+}
+section .buttons a{
+    text-decoration: none;
+    align-items: center;
+    color: aliceblue;
+    
+}
+section .buttons .img{
+    align-items: center;
+}
+.buttons{
+   width: 130px;
+   height: 30px;
+   font-weight: bold;
+   background-color: black;
+   margin: 20px;
+}
+section .buttons .Icon{
+    display: flex;
+    align-items: center;
+}
+.mobile-nav{
+    display: none;
+}
